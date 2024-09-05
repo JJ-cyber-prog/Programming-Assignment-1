@@ -9,7 +9,7 @@ def alphabet_soup(s):
 
 print(alphabet_soup("electronics"))  
 print(alphabet_soup("engineering"))
-print(alphabet_soup("microelectronics"))
+print(alphabet_soup("microelectronics")) 
 
 # For number 2: Emoticon Problem
 
