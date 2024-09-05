@@ -35,10 +35,6 @@ print(emotify("I am sad"))
 print(emotify("I am sad"))
     return new_phrase
 
-print(emotify("Make me smile"))
-print(emotify("Make me grin"))
-print(emotify("I am sad"))
-print(emotify("I am sad"))
 
 # For number 3: Unpacking List Problem
 
