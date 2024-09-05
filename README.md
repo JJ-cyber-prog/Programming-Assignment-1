@@ -21,12 +21,18 @@ def emotify(phrase: str):
     elif words[-1].lower() == "grin":
         words[-1] = ":D"
     elif words[-1].lower() == "sad":
-        words[-1] = ":D"
+        words[-1] = ":(("
     elif words[-1].lower() == "mad":
-        words[-1] = ":D"
+        words[-1] = ":)"
         
     new_phrase = ' '.join(words)
     
+    return new_phrase
+
+print(emotify("Make me smile"))
+print(emotify("Make me grin"))
+print(emotify("I am sad"))
+print(emotify("I am sad"))
     return new_phrase
 
 print(emotify("Make me smile"))
