@@ -1,5 +1,6 @@
-This is my submission for the First Programming Assignment. The code demonstrates the implementation of algorithms to solve the given problem.
+# This is my submission for the First Programming Assignment. The code demonstrates the implementation of algorithms to solve the given problems. It introduces us to a new programming language, Python.
 
+# For number 1: Alphabet Soup Problem
 
 def alphabet_soup(s):
     sorted_chars = sorted(s)
@@ -10,6 +11,7 @@ print(alphabet_soup("electronics"))
 print(alphabet_soup("engineering"))
 print(alphabet_soup("microelectronics"))
 
+# For number 2: Emoticon Problem
 
 def emotify(phrase: str):
     words = phrase.split()
@@ -32,6 +34,7 @@ print(emotify("Make me grin"))
 print(emotify("I am sad"))
 print(emotify("I am sad"))
 
+# For number 3: Unpacking List Problem
 
 def separation(arr):
     if len(arr) < 2:
